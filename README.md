@@ -24,13 +24,13 @@ struct timer {
 	set_timer(&timer);
 }
 
-static int cancel(void *ctx) {
-	printf("cancel\n");
+static int timeout(void *ctx) {
+	printf("timeout\n");
 	return 0;
 }
 
-static int timeout(void *ctx) {
-	printf("timeout\n");
+static int cancel(void *ctx) {
+	printf("cancel\n");
 	return 0;
 }
 ```
