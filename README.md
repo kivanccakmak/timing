@@ -3,12 +3,12 @@
 basic -one timer limited- watchdog library.
 
 # compile
-`make`
+* `make`
 
 # run
-`./timing`
+* `./timing`
 
 # doxygen
 
-`make dox`
-`firefox doc/doxygen/html/index.html`
+* `make dox`
+* `firefox doc/doxygen/html/index.html`
