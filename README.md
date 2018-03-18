@@ -10,4 +10,5 @@ basic -one timer limited- watchdog library.
 
 # doxygen
 
-`make doxygen`
+`make dox`
+`firefox doc/doxygen/html/index.html`

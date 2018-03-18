@@ -12,6 +12,7 @@ lib:
 
 test:
 	$(CC) $(CFLAGS) main.c timing.o -o timing -DTEST=1 -lpthread
+	cp timing ../
 
 memtest: lib test
 	valgrind --leak-check=full ./timing
@@ -19,3 +20,4 @@ memtest: lib test
 clean:
 	rm -rf *.o
 	rm -rf timing
+	rm -rf ../timing
